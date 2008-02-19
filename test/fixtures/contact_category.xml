@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <insertContactCategory>
+    <contactCategory uid="0">
+	  <type>Status</type>
+	  <name>Customer</name>
+    </contactCategory>
+  </insertContactCategory>
+  <insertContactCategory>
+    <contactCategory uid="0">
+      <type>Status</type>
+	  <name>Supplier</name>
+	</contactCategory>
+  </insertContactCategory>
+</tasks>

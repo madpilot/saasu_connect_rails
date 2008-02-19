@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <insertInvoice>
+    <invoice uid="0">
+	  <transactionType>S</transactionType>
+	  <date>2005-09-30</date>
+	  <contactUid>0</contactUid>
+      <folderUid>0</folderUid>
+	  <summary>Test POST sale</summary>
+	  <notes>From REST</notes>
+	  <requiresFollowUp>false</requiresFollowUp>
+      <dueOrExpiryDate>2005-12-01</dueOrExpiryDate>
+	  <layout>S</layout>
+	  <status>I</status>
+	  <invoiceNumber>&lt;Auto Number&gt;</invoiceNumber>
+	  <purchaseOrderNumber>PO222</purchaseOrderNumber>
+	  <invoiceItems>
+	    <serviceInvoiceItem>
+		  <description>Design &amp; Development of REST WS</description>
+		  <accountUid>0</accountUid>
+		  <taxCode>G1</taxCode>
+		  <totalAmountInclTax>2132.51</totalAmountInclTax>
+        </serviceInvoiceItem>
+	  </invoiceItems>
+	  <isSent>false</isSent>
+    </invoice>
+  </insertInvoice>
+  <insertInvoice>
+    <invoice uid="0">
+	  <transactionType>S</transactionType>
+	  <date>2007-10-01</date>
+	  <contactUid>0</contactUid>
+      <folderUid>0</folderUid>
+	  <summary>Selling computer bits</summary>
+	  <notes>Also REST</notes>
+	  <requiresFollowUp>false</requiresFollowUp>
+      <dueOrExpiryDate>2007-12-01</dueOrExpiryDate>
+	  <layout>I</layout>
+	  <status>I</status>
+	  <invoiceNumber>&lt;Auto Number&gt;</invoiceNumber>
+	  <purchaseOrderNumber>PO222</purchaseOrderNumber>
+	  <invoiceItems>
+	    <itemInvoiceItem>
+		  <quantity>10</quantity>
+		  <inventoryItemUid>0</inventoryItemUid>
+		  <description>Pentium 4 CPU</description>
+		  <taxCode>G1</taxCode>
+		  <unitPriceInclTax>550</unitPriceInclTax>
+		  <percentageDiscount>10</percentageDiscount>
+		</itemInvoiceItem>
+	  </invoiceItems>
+	  <isSent>false</isSent>
+	</invoice>
+  </insertInvoice>
+ </tasks>

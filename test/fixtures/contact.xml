@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <insertContact>
+    <contact uid="0">
+      <salutation>Mr.</salutation>
+      <givenName>John</givenName>
+      <familyName>Smith</familyName>
+      <organisationName>ACME Pty Ltd</organisationName>
+	  <organisationWebsite>www.acme.com</organisationWebsite>
+      <organisationPosition>Director</organisationPosition>
+      <abn>67 093 453 886</abn>
+      <email>john.smith@acme.com.au</email>
+      <mainPhone>02 9999 9999</mainPhone>
+      <homePhone>02 8888 8888</homePhone>
+      <mobilePhone>0444 444 444</mobilePhone>
+      <postalAddress>
+        <street>3/33 Victory Av</street>
+        <city>North Sydney</city>
+        <state>NSW</state>
+        <postCode>2112</postCode>
+        <country>Australia</country>
+      </postalAddress>
+      <otherAddress>
+        <street>12/22</street>
+        <city>Pennant Hills</city>
+        <state>NSW</state>
+        <postCode>2122</postCode>
+        <country>Australia</country>
+      </otherAddress>
+      <isActive>true</isActive>
+    </contact>
+  </insertContact>
+  <insertContact>
+    <contact uid="0">
+      <salutation>Ms.</salutation>
+      <givenName>Isabelle</givenName>
+      <familyName>Reid</familyName>
+      <organisationName>Equancommun Asia</organisationName>
+	  <organisationWebsite>www.equancommun-asia.com</organisationWebsite>
+      <organisationPosition>Director</organisationPosition>
+      <abn>67 093 453 887</abn>
+      <email>ireid@equancommun-asia.com</email>
+      <mainPhone>02 6762 9504</mainPhone>
+      <postalAddress>
+        <street>35 Balonne Street</street>
+        <city>Moorland</city>
+        <state>NSW</state>
+        <postCode>2443</postCode>
+        <country>Australia</country>
+      </postalAddress>
+      <isActive>true</isActive>
+    </contact>
+  </insertContact>
+  <insertContact>
+    <contact uid="0">
+      <salutation>Mr.</salutation>
+      <givenName>Charlie</givenName>
+      <familyName>Fox</familyName>
+      <organisationName>Vele Systems, Inc</organisationName>
+	  <organisationWebsite>www.vele.com</organisationWebsite>
+      <organisationPosition>Director</organisationPosition>
+      <abn>67 093 453 887</abn>
+      <email>charlie@vele.com</email>
+      <mainPhone>03 6208 1813</mainPhone>
+      <postalAddress>
+        <street>39 Pelican Road</street>
+        <city>South Hobart</city>
+        <state>TAS</state>
+        <postCode>7004</postCode>
+        <country>Australia</country>
+      </postalAddress>
+      <isActive>true</isActive>
+    </contact>
+  </insertContact>
+</tasks>

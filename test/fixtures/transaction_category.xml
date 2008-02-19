@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <insertTransactionCategory>
+    <transactionCategory uid="0">
+	  <type>Income</type>
+	  <name>Contract</name>
+	  <isActive>true</isActive>
+    </transactionCategory>
+  </insertTransactionCategory>
+  <insertTransactionCategory>
+    <transactionCategory uid="0">
+      <type>Income</type>
+	  <name>Hosting</name>
+	  <isActive>true</isActive>
+	</transactionCategory>
+  </insertTransactionCategory>
+</tasks>

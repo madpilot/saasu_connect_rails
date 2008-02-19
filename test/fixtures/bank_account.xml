@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <insertBankAccount>
+    <bankAccount uid="0">
+      <type>Asset</type>
+      <name>ANZ</name>
+      <isActive>true</isActive>
+	  <displayName>ANZ</displayName>
+	  <bsb>111 111</bsb>
+	  <accountNumber>1111 1111</accountNumber>
+    </bankAccount>
+  </insertBankAccount>
+  <insertBankAccount>
+	<bankAccount uid="0">
+      <type>Asset</type>
+	  <name>CBA</name>
+	  <isActive>false</isActive>
+	  <displayName>Commonwealth Bank</displayName>
+	  <bsb>333 333</bsb>
+	  <accountNumber>3333 3333</accountNumber>
+	</bankAccount>
+  </insertBankAccount>
+</tasks>

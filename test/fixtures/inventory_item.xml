@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <insertInventoryItem>
+    <inventoryItem uid="0">
+      <code>PENT4</code>
+	  <description>Pentium 4.0 CPU</description>
+	  <isActive>true</isActive>
+	  <notes>Intel</notes>
+	  <isInventoried>false</isInventoried>
+      <isBought>false</isBought>
+	  <isSold>true</isSold>
+      <saleIncomeAccountUid>0</saleIncomeAccountUid>
+	  <saleTaxCode>G1</saleTaxCode>
+      <rrpInclTax>440.00</rrpInclTax>
+	</inventoryItem>
+  </insertInventoryItem>
+</tasks>
