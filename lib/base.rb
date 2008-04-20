@@ -95,11 +95,15 @@ module SaasuConnect
 			
 			return nil if (value == "" || value == nil) && type != :string
 
-			return value.to_i if type == :int
-			return value.to_f if type == :float
-			return Date.parse(value) if type == :date
-			return Time.parse(value) if type == :time
-			return DateTime.parse(value) if type == :date_time
+			begin
+				return value.to_i if type == :int
+				return value.to_f if type == :float
+				return Date.parse(value) if type == :date
+				return Time.parse(value) if type == :time
+				return DateTime.parse(value) if type == :date_time
+			rescue Class::ArgumentError => e
+				raise SaasuConnect::Base::ArgumentError.new e.message	
+			end
 			return value == "true" if type == :bool
 			return value
 		end
@@ -347,7 +351,7 @@ module SaasuConnect
 					if self.primary_key != nil && self.attributes[self.primary_key] != nil && !@complete_download
 						if self.attributes[method] == nil
 							# I'm worried about the face I need to include a to_i, it should be already cast
-							self.attributes = SaasuConnect.const_get(name).find(self.attributes[self.primary_key].to_i).attributes
+							self.attributes = SaasuConnect.const_get(name).find(self.attributes[self.primary_key].to_i, { :access_key => self.access_key, :file_uid => self.file_uid }).attributes
 							@complete_download = true
 						end
 					end

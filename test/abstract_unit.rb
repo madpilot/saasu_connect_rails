@@ -1,8 +1,8 @@
 require 'test/unit'
 require 'yaml'
 
-SAASU_ACCESS_KEY = "xxxx-xxxx-xxxx-xxxx"
-SAASU_FILE_UID = "xxx"
+SAASU_ACCESS_KEY = "1B2A-7638-716B-43D3-B51F-96B0-0A5A-116C"
+SAASU_FILE_UID = "102"
 RAILS_ENV = "test"
 
 require 'rubygems'
